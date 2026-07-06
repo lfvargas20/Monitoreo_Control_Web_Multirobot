@@ -1,0 +1,1 @@
+/home/lfvargas/amr_ws/src/nav2_bringup/launch/amr_simulation_launch.py

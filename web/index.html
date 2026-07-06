@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMR Web Interface</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/roslib@1/build/roslib.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/easeljs@1/lib/easeljs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/eventemitter2@6/lib/eventemitter2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ros2d@0/build/ros2d.js"></script>
+</head>
+</head>
+
+<body>
+
+    <div class="grid-container" id="app">
+        <div class="grid-item-header">  
+            AMR Web Interface
+        </div>
+
+
+        <div class="grid-item top-left top-item">
+            <h2>RGB Camera</h2>
+            <div id="camera-container">
+                <!--<img id="ros-video" style="align-content: center; text-align: center;" autoplay></img>-->
+            </div>
+            <!--<img id="ros-image" src="http://localhost:8080/stream?topic=tb3_0/camera/rgb/image_raw" alt="Camera Image">-->
+
+        </div>
+
+        <div class="grid-item top-right top-item" style="position: relative;">
+            <h2>Map</h2>
+                <div id="map"></div>
+                <canvas class="mapGraph" id="mapCanvas" style="border: 1px solid black;"></canvas>
+                
+                <div class="canvas-container">
+                    <canvas class="mapGraph" id="labelCanvas" style="border: 1px solid black;"></canvas>
+                    <div class="label horizontal-label-container">
+                        <p>-9.10</p>
+                        <p>-2.62</p>
+                        <p> 3.86</p>
+                        <p> 10.35</p>
+                        <p> 16.83</p>
+                        <p> 23.31</p>
+                        <p> 29.79</p>
+                    </div>
+            
+                    <div class="label vertical-label-container">
+                        <p> 10.34</p>
+                        <p> 7.05</p>
+                        <p> 3.76</p>
+                        <p> 0.47</p>
+                        <p>-2.83</p>
+                        <p>-6.12</p>
+                        <p>-9.41</p>
+                    </div>
+            
+                    <p class="label" id="x-label">x [m]</p>
+                    <p class="label" id="y-label">y [m]</p>
+                    
+                </div>
+                <img src="legends.png" id="legend" alt="Legend" class="legend">
+                <button class="navigation-button button-margin" id="reset-button" onclick="reset()" hidden>Reset Trajectories</button>
+                <canvas id="goal-point-canvas" style="border: 1px solid black;"></canvas>
+                
+        </div>
+
+
+        <div class="grid-item bottom-left low-item">
+            <div>
+                <h2>Indicators</h2>
+            </div>
+
+            <div class="indicators">
+
+                <div class="indicator-box">
+                    <div class="indicator-box-hbox">
+                        <span class="indicator-label first-label">Roll:</span>
+                        <span id="roll-text" class="indicator-value item1"></span>
+                        <span class="indicator-label item2 item5">Linear Velocity:</span>
+                        <span id="linear-velocity-text" class="indicator-value item3">        </span>
+                    </div>
+                </div>
+
+                <div class="indicator-box">
+                    <div class="indicator-box-hbox">
+                        <span class="indicator-label">Pitch:</span>
+                        <span id="pitch-text" class="indicator-value item1"></span>
+                        <span class="indicator-label item4">Angular Velocity:</span>
+                        <span id="angular-velocity-text" class="indicator-value item3">          </span>
+                    </div>
+                </div>
+
+                <div class="indicator-box">
+                    <div class="indicator-box-hbox" id="yaw-box">
+                        <span class="indicator-label item6">Yaw:</span>
+                        <span id="yaw-text" class="indicator-value"></span>
+                    </div>
+                </div>
+
+
+                <div class="indicator-box">
+                    <span class="indicator-label">Stability Alarm:</span>
+                    <span id="stability-alarm-text" class="indicator-value"></span>
+                </div>
+
+                <div class="indicator-box">
+                    <span class="indicator-label">Proximity Alarm:</span>
+                    <span id="proximity-alarm-text" class="indicator-value"></span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="grid-item bottom-right low-item" style = "text-align: center;">
+            <h1>Control Buttons</h1>
+            &nbsp;
+            <div class="horizontal-container">
+                <div class="buttons-container">
+                    <h3>Manual Control</h3>
+                    <div>
+                        <button class="button" id="forward-button">
+                            <i class="fas fa-arrow-up"> </i>
+                        </button>
+                    </div>
+
+                    <div class="vbox-buttons">
+                        <div>
+                            <button class="button" id="clock-button">
+                                <i class="fas fa-undo"></i>
+                            </button>
+                        </div>
+                        
+                        <div>
+                            <button class="button" id="stop-button">
+                                <i class="fas fa-stop"></i>
+                            </button>
+                        </div>
+                        
+                        <div>
+                            <button class="button" id="anticlock-button">
+                                <i class="fas fa-redo"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="button" id="backward-button">
+                            <i class="fas fa-arrow-down"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="buttons-container">
+                    <h3>Autonomous Navigation</h3>
+                    <div class="form-container">
+                        <div class="grouped-fields">
+                          <div class="field">
+                            <div class="radio-checkbox">
+                              <input type="radio" id="robot1" name="robot" onclick="showRobot1()">
+                              <label>Robot 1</label>
+                            </div>
+                          </div>
+                          <div class="field">
+                            <div class="radio-checkbox">
+                              <input type="radio" id="robot2" name="robot" onclick="showRobot2()">
+                              <label>Robot 2</label>
+                            </div>
+                          </div>
+                          <div class="field">
+                            <div class="radio-checkbox">
+                              <input type="radio" id="robot3" name="robot" onclick="showRobot3()">
+                              <label>Robot 3</label>
+                            </div>
+                          </div>
+                          <div class="field">
+                            <div class="radio-checkbox">
+                              <input type="radio" id="robot4" name="robot" onclick="showRobot4()">
+                              <label>Robot 4</label>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="horizontal-container-pose navigation-container">
+                        <div class="vertical-container">
+                            <label>Goal position in x (m)</label>
+                            <label>Goal position in y (m)</label>
+                            <label>Goal position in theta (°)</label>
+                        </div>
+                        <div class="vertical-container">
+                            <input type="text" id="x-value-input" class="input-field">
+                            <input type="text" id="y-value-input" class="input-field">
+                            <input type="text" id="theta-value-input" class="input-field">
+                        </div>
+                    </div>
+                    <div class="nav-button">
+                        <button class="navigation-button button-margin" id="goal-button" onclick="startGoal()">Send Goal</button>
+                        <button class="navigation-button" id="cancel-goal-button" onclick="cancelGoal()">Cancel Goal</button>
+                    </div>
+                    <p class="goal-status" id="goal-text"></p>
+                </div>
+            </div>
+        </div>
+
+    
+    </div>
+
+    <script src="index3.js"></script>
+</body>
+</html>

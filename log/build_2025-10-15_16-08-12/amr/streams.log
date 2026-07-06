@@ -1,0 +1,66 @@
+[1.192s] Invoking command in '/home/lfvargas/amr_ws/build/amr': PYTHONPATH=/home/lfvargas/amr_ws/build/amr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lfvargas/amr_ws/install/amr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lfvargas/amr_ws/build/amr/build --no-deps symlink_data
+[1.538s] running develop
+[1.800s] running egg_info
+[1.801s] creating amr.egg-info
+[1.801s] writing amr.egg-info/PKG-INFO
+[1.801s] writing dependency_links to amr.egg-info/dependency_links.txt
+[1.801s] writing entry points to amr.egg-info/entry_points.txt
+[1.801s] writing requirements to amr.egg-info/requires.txt
+[1.801s] writing top-level names to amr.egg-info/top_level.txt
+[1.802s] writing manifest file 'amr.egg-info/SOURCES.txt'
+[1.805s] reading manifest file 'amr.egg-info/SOURCES.txt'
+[1.805s] writing manifest file 'amr.egg-info/SOURCES.txt'
+[1.856s] running build_ext
+[1.856s] Creating /home/lfvargas/amr_ws/install/amr/lib/python3.10/site-packages/amr.egg-link (link to .)
+[1.857s] Installing node_trigger_goal_1 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[1.857s] Installing node_trigger_goal_2 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[1.857s] Installing node_trigger_goal_3 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[1.858s] Installing node_trigger_goal_4 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[1.858s] Installing node_trigger_goal_tb3_1 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[1.858s] Installing node_trigger_goal_tb3_2 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[1.858s] 
+[1.858s] Installed /home/lfvargas/amr_ws/build/amr
+[1.858s] running symlink_data
+[1.858s] creating /home/lfvargas/amr_ws/install/amr/share/ament_index
+[1.859s] creating /home/lfvargas/amr_ws/install/amr/share/ament_index/resource_index
+[1.859s] creating /home/lfvargas/amr_ws/install/amr/share/ament_index/resource_index/packages
+[1.859s] symbolically linking /home/lfvargas/amr_ws/build/amr/resource/amr -> /home/lfvargas/amr_ws/install/amr/share/ament_index/resource_index/packages
+[1.859s] symbolically linking /home/lfvargas/amr_ws/build/amr/package.xml -> /home/lfvargas/amr_ws/install/amr/share/amr
+[1.859s] creating /home/lfvargas/amr_ws/install/amr/share/amr/launch
+[1.860s] symbolically linking /home/lfvargas/amr_ws/build/amr/launch/nav2_multi_tb3_launch.launch.py -> /home/lfvargas/amr_ws/install/amr/share/amr/launch
+[1.860s] symbolically linking /home/lfvargas/amr_ws/build/amr/launch/node_trigger_multirobot_launch.launch.py -> /home/lfvargas/amr_ws/install/amr/share/amr/launch
+[1.860s] symbolically linking /home/lfvargas/amr_ws/build/amr/launch/node_trigger_multi_tb3_launch.launch.py -> /home/lfvargas/amr_ws/install/amr/share/amr/launch
+[1.860s] symbolically linking /home/lfvargas/amr_ws/build/amr/launch/multi_tb3_project_launch.launch.py -> /home/lfvargas/amr_ws/install/amr/share/amr/launch
+[1.860s] symbolically linking /home/lfvargas/amr_ws/build/amr/launch/multi_amr_project_launch.launch.py -> /home/lfvargas/amr_ws/install/amr/share/amr/launch
+[1.860s] symbolically linking /home/lfvargas/amr_ws/build/amr/launch/nav2_multirobot_launch.launch.py -> /home/lfvargas/amr_ws/install/amr/share/amr/launch
+[1.861s] creating /home/lfvargas/amr_ws/install/amr/share/amr/param
+[1.861s] symbolically linking /home/lfvargas/amr_ws/build/amr/param/nav2_multirobot_params_3.yaml -> /home/lfvargas/amr_ws/install/amr/share/amr/param
+[1.861s] symbolically linking /home/lfvargas/amr_ws/build/amr/param/nav2_multirobot_params_2.yaml -> /home/lfvargas/amr_ws/install/amr/share/amr/param
+[1.861s] symbolically linking /home/lfvargas/amr_ws/build/amr/param/nav2_multirobot_params_tb3_2.yaml -> /home/lfvargas/amr_ws/install/amr/share/amr/param
+[1.861s] symbolically linking /home/lfvargas/amr_ws/build/amr/param/nav2_multirobot_params_4.yaml -> /home/lfvargas/amr_ws/install/amr/share/amr/param
+[1.861s] symbolically linking /home/lfvargas/amr_ws/build/amr/param/diff_drive_controller.yaml -> /home/lfvargas/amr_ws/install/amr/share/amr/param
+[1.861s] symbolically linking /home/lfvargas/amr_ws/build/amr/param/nav2_multirobot_params_1.yaml -> /home/lfvargas/amr_ws/install/amr/share/amr/param
+[1.862s] symbolically linking /home/lfvargas/amr_ws/build/amr/param/nav2_multirobot_params_tb3_1.yaml -> /home/lfvargas/amr_ws/install/amr/share/amr/param
+[1.862s] creating /home/lfvargas/amr_ws/install/amr/share/amr/urdf
+[1.862s] symbolically linking /home/lfvargas/amr_ws/build/amr/urdf/amr.urdf -> /home/lfvargas/amr_ws/install/amr/share/amr/urdf
+[1.862s] symbolically linking /home/lfvargas/amr_ws/build/amr/models/lds.dae -> /home/lfvargas/amr_ws/install/amr/share/amr/launch
+[1.862s] symbolically linking /home/lfvargas/amr_ws/build/amr/models/amr_chasis.dae -> /home/lfvargas/amr_ws/install/amr/share/amr/launch
+[1.862s] symbolically linking /home/lfvargas/amr_ws/build/amr/models/waffle_base.dae -> /home/lfvargas/amr_ws/install/amr/share/amr/launch
+[1.862s] symbolically linking /home/lfvargas/amr_ws/build/amr/models/r200.dae -> /home/lfvargas/amr_ws/install/amr/share/amr/launch
+[1.863s] symbolically linking /home/lfvargas/amr_ws/build/amr/models/tire.dae -> /home/lfvargas/amr_ws/install/amr/share/amr/launch
+[1.863s] creating /home/lfvargas/amr_ws/install/amr/share/amr/worlds
+[1.863s] symbolically linking /home/lfvargas/amr_ws/build/amr/worlds/factory.world -> /home/lfvargas/amr_ws/install/amr/share/amr/worlds
+[1.863s] creating /home/lfvargas/amr_ws/install/amr/share/amr/map
+[1.863s] symbolically linking /home/lfvargas/amr_ws/build/amr/map/factory_map_copy_1.yaml -> /home/lfvargas/amr_ws/install/amr/share/amr/map
+[1.863s] symbolically linking /home/lfvargas/amr_ws/build/amr/map/factory_map_copy_1.pgm -> /home/lfvargas/amr_ws/install/amr/share/amr/map
+[1.863s] symbolically linking /home/lfvargas/amr_ws/build/amr/map/map_house_1.pgm -> /home/lfvargas/amr_ws/install/amr/share/amr/map
+[1.863s] symbolically linking /home/lfvargas/amr_ws/build/amr/map/map_house.pgm -> /home/lfvargas/amr_ws/install/amr/share/amr/map
+[1.863s] symbolically linking /home/lfvargas/amr_ws/build/amr/map/map_house.yaml -> /home/lfvargas/amr_ws/install/amr/share/amr/map
+[1.864s] symbolically linking /home/lfvargas/amr_ws/build/amr/map/map_house_1.yaml -> /home/lfvargas/amr_ws/install/amr/share/amr/map
+[1.864s] creating /home/lfvargas/amr_ws/install/amr/share/amr/models
+[1.864s] symbolically linking /home/lfvargas/amr_ws/build/amr/models/lds.dae -> /home/lfvargas/amr_ws/install/amr/share/amr/models
+[1.864s] symbolically linking /home/lfvargas/amr_ws/build/amr/models/amr_chasis.dae -> /home/lfvargas/amr_ws/install/amr/share/amr/models
+[1.864s] symbolically linking /home/lfvargas/amr_ws/build/amr/models/waffle_base.dae -> /home/lfvargas/amr_ws/install/amr/share/amr/models
+[1.864s] symbolically linking /home/lfvargas/amr_ws/build/amr/models/r200.dae -> /home/lfvargas/amr_ws/install/amr/share/amr/models
+[1.864s] symbolically linking /home/lfvargas/amr_ws/build/amr/models/tire.dae -> /home/lfvargas/amr_ws/install/amr/share/amr/models
+[1.920s] Invoked command in '/home/lfvargas/amr_ws/build/amr' returned '0': PYTHONPATH=/home/lfvargas/amr_ws/build/amr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lfvargas/amr_ws/install/amr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lfvargas/amr_ws/build/amr/build --no-deps symlink_data

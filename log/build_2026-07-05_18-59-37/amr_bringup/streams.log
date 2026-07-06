@@ -1,0 +1,16 @@
+[6.263s] Invoking command in '/home/lfvargas/amr_ws/build/amr_bringup': PYTHONPATH=/home/lfvargas/amr_ws/build/amr_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lfvargas/amr_ws/install/amr_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lfvargas/amr_ws/build/amr_bringup/build --no-deps symlink_data
+[6.652s] running develop
+[7.029s] running egg_info
+[7.029s] writing amr_bringup.egg-info/PKG-INFO
+[7.030s] writing dependency_links to amr_bringup.egg-info/dependency_links.txt
+[7.030s] writing entry points to amr_bringup.egg-info/entry_points.txt
+[7.030s] writing requirements to amr_bringup.egg-info/requires.txt
+[7.030s] writing top-level names to amr_bringup.egg-info/top_level.txt
+[7.032s] reading manifest file 'amr_bringup.egg-info/SOURCES.txt'
+[7.033s] writing manifest file 'amr_bringup.egg-info/SOURCES.txt'
+[7.078s] running build_ext
+[7.079s] Creating /home/lfvargas/amr_ws/install/amr_bringup/lib/python3.10/site-packages/amr-bringup.egg-link (link to .)
+[7.079s] 
+[7.079s] Installed /home/lfvargas/amr_ws/build/amr_bringup
+[7.079s] running symlink_data
+[7.137s] Invoked command in '/home/lfvargas/amr_ws/build/amr_bringup' returned '0': PYTHONPATH=/home/lfvargas/amr_ws/build/amr_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lfvargas/amr_ws/install/amr_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lfvargas/amr_ws/build/amr_bringup/build --no-deps symlink_data

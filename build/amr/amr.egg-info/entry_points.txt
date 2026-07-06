@@ -1,0 +1,10 @@
+[console_scripts]
+node_trigger_goal_1 = amr.node_trigger_goal_1:main
+node_trigger_goal_2 = amr.node_trigger_goal_2:main
+node_trigger_goal_3 = amr.node_trigger_goal_3:main
+node_trigger_goal_4 = amr.node_trigger_goal_4:main
+node_trigger_goal_tb3_1 = amr.node_trigger_goal_tb3_1:main
+node_trigger_goal_tb3_2 = amr.node_trigger_goal_tb3_2:main
+node_trigger_goal_tb3_3 = amr.node_trigger_goal_tb3_3:main
+node_trigger_goal_tb3_4 = amr.node_trigger_goal_tb3_4:main
+

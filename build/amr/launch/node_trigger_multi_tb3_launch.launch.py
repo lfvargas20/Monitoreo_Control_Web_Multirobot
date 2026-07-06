@@ -1,0 +1,1 @@
+/home/lfvargas/amr_ws/src/amr/launch/node_trigger_multi_tb3_launch.launch.py

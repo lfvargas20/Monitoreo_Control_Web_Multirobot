@@ -1,0 +1,1 @@
+/home/lfvargas/amr_ws/build/nova_nav2_bringup/ament_cmake_environment_hooks/local_setup.bash

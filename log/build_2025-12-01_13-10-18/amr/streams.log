@@ -1,0 +1,26 @@
+[5.928s] Invoking command in '/home/lfvargas/amr_ws/build/amr': PYTHONPATH=/home/lfvargas/amr_ws/build/amr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lfvargas/amr_ws/install/amr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lfvargas/amr_ws/build/amr/build --no-deps symlink_data
+[6.291s] running develop
+[6.582s] running egg_info
+[6.582s] writing amr.egg-info/PKG-INFO
+[6.582s] writing dependency_links to amr.egg-info/dependency_links.txt
+[6.583s] writing entry points to amr.egg-info/entry_points.txt
+[6.583s] writing requirements to amr.egg-info/requires.txt
+[6.583s] writing top-level names to amr.egg-info/top_level.txt
+[6.585s] reading manifest file 'amr.egg-info/SOURCES.txt'
+[6.588s] writing manifest file 'amr.egg-info/SOURCES.txt'
+[6.637s] running build_ext
+[6.637s] Creating /home/lfvargas/amr_ws/install/amr/lib/python3.10/site-packages/amr.egg-link (link to .)
+[6.638s] Installing node_trigger_goal_1 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[6.638s] Installing node_trigger_goal_2 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[6.638s] Installing node_trigger_goal_3 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[6.638s] Installing node_trigger_goal_4 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[6.638s] Installing node_trigger_goal_tb3_1 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[6.639s] Installing node_trigger_goal_tb3_2 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[6.639s] Installing node_trigger_goal_tb3_3 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[6.639s] Installing node_trigger_goal_tb3_4 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[6.639s] 
+[6.639s] Installed /home/lfvargas/amr_ws/build/amr
+[6.639s] running symlink_data
+[6.644s] symbolically linking /home/lfvargas/amr_ws/build/amr/param/nav2_multirobot_params_tb3_4.yaml -> /home/lfvargas/amr_ws/install/amr/share/amr/param
+[6.645s] symbolically linking /home/lfvargas/amr_ws/build/amr/param/nav2_multirobot_params_tb3_3.yaml -> /home/lfvargas/amr_ws/install/amr/share/amr/param
+[6.691s] Invoked command in '/home/lfvargas/amr_ws/build/amr' returned '0': PYTHONPATH=/home/lfvargas/amr_ws/build/amr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lfvargas/amr_ws/install/amr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lfvargas/amr_ws/build/amr/build --no-deps symlink_data

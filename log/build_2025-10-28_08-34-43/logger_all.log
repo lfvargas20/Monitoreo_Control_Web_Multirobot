@@ -1,0 +1,263 @@
+[1.902s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.902s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76564d0a2380>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76564d0239d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76564d0239d0>>, mixin_verb=('build',))
+[4.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.503s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lfvargas/amr_ws'
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.533s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extensions ['ignore', 'ignore_ament_install']
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extension 'ignore'
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extension 'ignore_ament_install'
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extensions ['colcon_pkg']
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extension 'colcon_pkg'
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extensions ['colcon_meta']
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extension 'colcon_meta'
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extensions ['ros']
+[4.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr) by extension 'ros'
+[4.540s] DEBUG:colcon.colcon_core.package_identification:Package 'src/amr' with type 'ros.ament_python' and name 'amr'
+[4.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_bringup) by extensions ['ignore', 'ignore_ament_install']
+[4.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_bringup) by extension 'ignore'
+[4.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_bringup) by extension 'ignore_ament_install'
+[4.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_bringup) by extensions ['colcon_pkg']
+[4.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_bringup) by extension 'colcon_pkg'
+[4.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_bringup) by extensions ['colcon_meta']
+[4.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_bringup) by extension 'colcon_meta'
+[4.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_bringup) by extensions ['ros']
+[4.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_bringup) by extension 'ros'
+[4.541s] DEBUG:colcon.colcon_core.package_identification:Package 'src/amr_bringup' with type 'ros.ament_python' and name 'amr_bringup'
+[4.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[4.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extension 'ignore'
+[4.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extension 'ignore_ament_install'
+[4.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extensions ['colcon_pkg']
+[4.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extension 'colcon_pkg'
+[4.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extensions ['colcon_meta']
+[4.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extension 'colcon_meta'
+[4.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extensions ['ros']
+[4.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_bringup) by extension 'ros'
+[4.543s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_bringup' with type 'ros.ament_cmake' and name 'nova_nav2_bringup'
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(web) by extensions ['ignore', 'ignore_ament_install']
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(web) by extension 'ignore'
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(web) by extension 'ignore_ament_install'
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(web) by extensions ['colcon_pkg']
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(web) by extension 'colcon_pkg'
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(web) by extensions ['colcon_meta']
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(web) by extension 'colcon_meta'
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(web) by extensions ['ros']
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(web) by extension 'ros'
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(web) by extensions ['cmake', 'python']
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(web) by extension 'cmake'
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(web) by extension 'python'
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(web) by extensions ['python_setup_py']
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(web) by extension 'python_setup_py'
+[4.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.713s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.713s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.758s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/lfvargas/amr_ws/install
+[4.759s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/lfvargas/ros2_ws2/install
+[4.765s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/lfvargas/ros2_ws/install
+[4.771s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 504 installed packages in /opt/ros/humble
+[4.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'cmake_args' from command line to 'None'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'cmake_target' from command line to 'None'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'cmake_clean_cache' from command line to 'False'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'cmake_clean_first' from command line to 'False'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'cmake_force_configure' from command line to 'False'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'ament_cmake_args' from command line to 'None'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'catkin_cmake_args' from command line to 'None'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.900s] DEBUG:colcon.colcon_core.verb:Building package 'amr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lfvargas/amr_ws/build/amr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lfvargas/amr_ws/install/amr', 'merge_install': False, 'path': '/home/lfvargas/amr_ws/src/amr', 'symlink_install': True, 'test_result_base': None}
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr_bringup' build argument 'cmake_args' from command line to 'None'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr_bringup' build argument 'cmake_target' from command line to 'None'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'amr_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.901s] DEBUG:colcon.colcon_core.verb:Building package 'amr_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lfvargas/amr_ws/build/amr_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lfvargas/amr_ws/install/amr_bringup', 'merge_install': False, 'path': '/home/lfvargas/amr_ws/src/amr_bringup', 'symlink_install': True, 'test_result_base': None}
+[4.901s] Level 5:colcon.colcon_core.verb:set package 'nova_nav2_bringup' build argument 'cmake_args' from command line to 'None'
+[4.901s] Level 5:colcon.colcon_core.verb:set package 'nova_nav2_bringup' build argument 'cmake_target' from command line to 'None'
+[4.901s] Level 5:colcon.colcon_core.verb:set package 'nova_nav2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.901s] Level 5:colcon.colcon_core.verb:set package 'nova_nav2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[4.901s] Level 5:colcon.colcon_core.verb:set package 'nova_nav2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[4.901s] Level 5:colcon.colcon_core.verb:set package 'nova_nav2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[4.901s] Level 5:colcon.colcon_core.verb:set package 'nova_nav2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[4.901s] Level 5:colcon.colcon_core.verb:set package 'nova_nav2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[4.901s] Level 5:colcon.colcon_core.verb:set package 'nova_nav2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.901s] DEBUG:colcon.colcon_core.verb:Building package 'nova_nav2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lfvargas/amr_ws/build/nova_nav2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lfvargas/amr_ws/install/nova_nav2_bringup', 'merge_install': False, 'path': '/home/lfvargas/amr_ws/src/nav2_bringup', 'symlink_install': True, 'test_result_base': None}
+[4.901s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.902s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.902s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lfvargas/amr_ws/src/amr' with build type 'ament_python'
+[4.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr', 'ament_prefix_path')
+[4.907s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lfvargas/amr_ws/install/amr/share/amr/hook/ament_prefix_path.ps1'
+[4.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lfvargas/amr_ws/install/amr/share/amr/hook/ament_prefix_path.dsv'
+[4.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lfvargas/amr_ws/install/amr/share/amr/hook/ament_prefix_path.sh'
+[4.912s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.912s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.917s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lfvargas/amr_ws/src/amr_bringup' with build type 'ament_python'
+[4.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_bringup', 'ament_prefix_path')
+[4.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lfvargas/amr_ws/install/amr_bringup/share/amr_bringup/hook/ament_prefix_path.ps1'
+[4.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lfvargas/amr_ws/install/amr_bringup/share/amr_bringup/hook/ament_prefix_path.dsv'
+[4.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lfvargas/amr_ws/install/amr_bringup/share/amr_bringup/hook/ament_prefix_path.sh'
+[4.918s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.919s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.923s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lfvargas/amr_ws/src/nav2_bringup' with build type 'ament_cmake'
+[4.923s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lfvargas/amr_ws/src/nav2_bringup'
+[4.923s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.923s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.241s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lfvargas/amr_ws/src/amr'
+[5.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.563s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lfvargas/amr_ws/src/amr_bringup'
+[5.564s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.564s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lfvargas/amr_ws/build/nova_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lfvargas/amr_ws/install/amr_bringup:/home/lfvargas/amr_ws/install/amr /usr/bin/cmake --build /home/lfvargas/amr_ws/build/nova_nav2_bringup -- -j8 -l8
+[5.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lfvargas/amr_ws/build/nova_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lfvargas/amr_ws/install/amr_bringup:/home/lfvargas/amr_ws/install/amr /usr/bin/cmake --build /home/lfvargas/amr_ws/build/nova_nav2_bringup -- -j8 -l8
+[5.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lfvargas/amr_ws/build/nova_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lfvargas/amr_ws/install/amr_bringup:/home/lfvargas/amr_ws/install/amr /usr/bin/cmake --install /home/lfvargas/amr_ws/build/nova_nav2_bringup
+[5.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nova_nav2_bringup)
+[5.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lfvargas/amr_ws/build/nova_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lfvargas/amr_ws/install/amr_bringup:/home/lfvargas/amr_ws/install/amr /usr/bin/cmake --install /home/lfvargas/amr_ws/build/nova_nav2_bringup
+[5.807s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/nova_nav2_bringup' for CMake module files
+[5.807s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/nova_nav2_bringup' for CMake config files
+[5.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('nova_nav2_bringup', 'cmake_prefix_path')
+[5.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/hook/cmake_prefix_path.ps1'
+[5.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/hook/cmake_prefix_path.dsv'
+[5.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/hook/cmake_prefix_path.sh'
+[5.809s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/nova_nav2_bringup/bin'
+[5.809s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/nova_nav2_bringup/lib/pkgconfig/nova_nav2_bringup.pc'
+[5.809s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/nova_nav2_bringup/lib/python3.10/site-packages'
+[5.810s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/nova_nav2_bringup/bin'
+[5.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/package.ps1'
+[5.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/package.dsv'
+[5.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/package.sh'
+[5.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/package.bash'
+[5.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/package.zsh'
+[5.834s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/colcon-core/packages/nova_nav2_bringup)
+[5.834s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nova_nav2_bringup)
+[5.834s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/nova_nav2_bringup' for CMake module files
+[5.835s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/nova_nav2_bringup' for CMake config files
+[5.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('nova_nav2_bringup', 'cmake_prefix_path')
+[5.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/hook/cmake_prefix_path.ps1'
+[5.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/hook/cmake_prefix_path.dsv'
+[5.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/hook/cmake_prefix_path.sh'
+[5.836s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/nova_nav2_bringup/bin'
+[5.837s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/nova_nav2_bringup/lib/pkgconfig/nova_nav2_bringup.pc'
+[5.837s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/nova_nav2_bringup/lib/python3.10/site-packages'
+[5.837s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/nova_nav2_bringup/bin'
+[5.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/package.ps1'
+[5.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/package.dsv'
+[5.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/package.sh'
+[5.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/package.bash'
+[5.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/package.zsh'
+[5.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lfvargas/amr_ws/install/nova_nav2_bringup/share/colcon-core/packages/nova_nav2_bringup)
+[6.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lfvargas/amr_ws/build/amr': PYTHONPATH=/home/lfvargas/amr_ws/build/amr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lfvargas/amr_ws/install/amr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lfvargas/amr_ws/build/amr/build --no-deps symlink_data
+[6.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lfvargas/amr_ws/build/amr_bringup': PYTHONPATH=/home/lfvargas/amr_ws/build/amr_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lfvargas/amr_ws/install/amr_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lfvargas/amr_ws/build/amr_bringup/build --no-deps symlink_data
+[7.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_bringup', 'pythonpath_develop')
+[7.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lfvargas/amr_ws/build/amr_bringup/share/amr_bringup/hook/pythonpath_develop.ps1'
+[7.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lfvargas/amr_ws/build/amr_bringup' returned '0': PYTHONPATH=/home/lfvargas/amr_ws/build/amr_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lfvargas/amr_ws/install/amr_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lfvargas/amr_ws/build/amr_bringup/build --no-deps symlink_data
+[7.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lfvargas/amr_ws/build/amr_bringup/share/amr_bringup/hook/pythonpath_develop.dsv'
+[7.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lfvargas/amr_ws/build/amr_bringup/share/amr_bringup/hook/pythonpath_develop.sh'
+[7.299s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/amr_bringup' for CMake module files
+[7.299s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/amr_bringup' for CMake config files
+[7.314s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/amr_bringup/lib'
+[7.314s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/amr_bringup/bin'
+[7.314s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/amr_bringup/lib/pkgconfig/amr_bringup.pc'
+[7.315s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/amr_bringup/lib/python3.10/site-packages'
+[7.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_bringup', 'pythonpath')
+[7.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lfvargas/amr_ws/install/amr_bringup/share/amr_bringup/hook/pythonpath.ps1'
+[7.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lfvargas/amr_ws/install/amr_bringup/share/amr_bringup/hook/pythonpath.dsv'
+[7.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lfvargas/amr_ws/install/amr_bringup/share/amr_bringup/hook/pythonpath.sh'
+[7.316s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/amr_bringup/bin'
+[7.316s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_bringup)
+[7.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/lfvargas/amr_ws/install/amr_bringup/share/amr_bringup/package.ps1'
+[7.317s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lfvargas/amr_ws/install/amr_bringup/share/amr_bringup/package.dsv'
+[7.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/lfvargas/amr_ws/install/amr_bringup/share/amr_bringup/package.sh'
+[7.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/lfvargas/amr_ws/install/amr_bringup/share/amr_bringup/package.bash'
+[7.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/lfvargas/amr_ws/install/amr_bringup/share/amr_bringup/package.zsh'
+[7.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lfvargas/amr_ws/install/amr_bringup/share/colcon-core/packages/amr_bringup)
+[7.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr', 'pythonpath_develop')
+[7.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lfvargas/amr_ws/build/amr/share/amr/hook/pythonpath_develop.ps1'
+[7.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lfvargas/amr_ws/build/amr' returned '0': PYTHONPATH=/home/lfvargas/amr_ws/build/amr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lfvargas/amr_ws/install/amr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lfvargas/amr_ws/build/amr/build --no-deps symlink_data
+[7.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lfvargas/amr_ws/build/amr/share/amr/hook/pythonpath_develop.dsv'
+[7.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lfvargas/amr_ws/build/amr/share/amr/hook/pythonpath_develop.sh'
+[7.348s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/amr' for CMake module files
+[7.349s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/amr' for CMake config files
+[7.420s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/amr/lib'
+[7.420s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/amr/bin'
+[7.420s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/amr/lib/pkgconfig/amr.pc'
+[7.421s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/amr/lib/python3.10/site-packages'
+[7.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr', 'pythonpath')
+[7.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lfvargas/amr_ws/install/amr/share/amr/hook/pythonpath.ps1'
+[7.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lfvargas/amr_ws/install/amr/share/amr/hook/pythonpath.dsv'
+[7.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lfvargas/amr_ws/install/amr/share/amr/hook/pythonpath.sh'
+[7.427s] Level 1:colcon.colcon_core.environment:checking '/home/lfvargas/amr_ws/install/amr/bin'
+[7.427s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr)
+[7.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/lfvargas/amr_ws/install/amr/share/amr/package.ps1'
+[7.430s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lfvargas/amr_ws/install/amr/share/amr/package.dsv'
+[7.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/lfvargas/amr_ws/install/amr/share/amr/package.sh'
+[7.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/lfvargas/amr_ws/install/amr/share/amr/package.bash'
+[7.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/lfvargas/amr_ws/install/amr/share/amr/package.zsh'
+[7.436s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lfvargas/amr_ws/install/amr/share/colcon-core/packages/amr)
+[7.437s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.439s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.439s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.503s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.503s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.503s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.794s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.795s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lfvargas/amr_ws/install/local_setup.ps1'
+[7.797s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lfvargas/amr_ws/install/_local_setup_util_ps1.py'
+[7.801s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lfvargas/amr_ws/install/setup.ps1'
+[7.803s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lfvargas/amr_ws/install/local_setup.sh'
+[7.805s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lfvargas/amr_ws/install/_local_setup_util_sh.py'
+[7.806s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lfvargas/amr_ws/install/setup.sh'
+[7.808s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lfvargas/amr_ws/install/local_setup.bash'
+[7.810s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lfvargas/amr_ws/install/setup.bash'
+[7.812s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lfvargas/amr_ws/install/local_setup.zsh'
+[7.813s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lfvargas/amr_ws/install/setup.zsh'

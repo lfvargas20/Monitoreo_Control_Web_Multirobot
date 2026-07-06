@@ -1,0 +1,24 @@
+[6.529s] Invoking command in '/home/lfvargas/amr_ws/build/amr': PYTHONPATH=/home/lfvargas/amr_ws/build/amr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lfvargas/amr_ws/install/amr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lfvargas/amr_ws/build/amr/build --no-deps symlink_data
+[6.930s] running develop
+[7.300s] running egg_info
+[7.300s] writing amr.egg-info/PKG-INFO
+[7.300s] writing dependency_links to amr.egg-info/dependency_links.txt
+[7.300s] writing entry points to amr.egg-info/entry_points.txt
+[7.301s] writing requirements to amr.egg-info/requires.txt
+[7.301s] writing top-level names to amr.egg-info/top_level.txt
+[7.303s] reading manifest file 'amr.egg-info/SOURCES.txt'
+[7.304s] writing manifest file 'amr.egg-info/SOURCES.txt'
+[7.347s] running build_ext
+[7.347s] Creating /home/lfvargas/amr_ws/install/amr/lib/python3.10/site-packages/amr.egg-link (link to .)
+[7.348s] Installing node_trigger_goal_1 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[7.348s] Installing node_trigger_goal_2 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[7.348s] Installing node_trigger_goal_3 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[7.348s] Installing node_trigger_goal_4 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[7.348s] Installing node_trigger_goal_tb3_1 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[7.349s] Installing node_trigger_goal_tb3_2 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[7.349s] Installing node_trigger_goal_tb3_3 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[7.349s] Installing node_trigger_goal_tb3_4 script to /home/lfvargas/amr_ws/install/amr/lib/amr
+[7.349s] 
+[7.349s] Installed /home/lfvargas/amr_ws/build/amr
+[7.349s] running symlink_data
+[7.580s] Invoked command in '/home/lfvargas/amr_ws/build/amr' returned '0': PYTHONPATH=/home/lfvargas/amr_ws/build/amr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lfvargas/amr_ws/install/amr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/lfvargas/amr_ws/build/amr/build --no-deps symlink_data

@@ -1,0 +1,45 @@
+[0.827s] Invoking command in '/home/lfvargas/amr_ws/build/nova_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lfvargas/amr_ws/install/amr_bringup:/home/lfvargas/amr_ws/install/amr /usr/bin/cmake --build /home/lfvargas/amr_ws/build/nova_nav2_bringup -- -j8 -l8
+[2.449s] Invoked command in '/home/lfvargas/amr_ws/build/nova_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lfvargas/amr_ws/install/amr_bringup:/home/lfvargas/amr_ws/install/amr /usr/bin/cmake --build /home/lfvargas/amr_ws/build/nova_nav2_bringup -- -j8 -l8
+[2.661s] Invoking command in '/home/lfvargas/amr_ws/build/nova_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lfvargas/amr_ws/install/amr_bringup:/home/lfvargas/amr_ws/install/amr /usr/bin/cmake --install /home/lfvargas/amr_ws/build/nova_nav2_bringup
+[2.709s] -- Install configuration: "Release"
+[2.777s] -- Execute custom install script
+[2.799s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/launch/amr_simulation_launch.py
+[2.800s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/launch/bringup_launch.py
+[2.800s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/launch/cloned_multi_tb3_simulation_launch.py
+[2.801s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/launch/localization_launch.py
+[2.802s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/launch/navigation_launch.py
+[2.805s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/launch/nova_launch.py
+[2.806s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/launch/rviz_launch.py
+[2.806s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/launch/slam_launch.py
+[2.822s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/launch/tb3_real_launch.py
+[2.823s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/launch/unique_multi_tb3_simulation_launch.py
+[2.845s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/maps/turtlebot3_world.pgm
+[2.866s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/maps/turtlebot3_world.yaml
+[2.911s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/rviz/nav2_default_view.rviz
+[2.933s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/rviz/nav2_namespaced_view.rviz
+[2.937s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/worlds/model.sdf
+[2.937s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/worlds/waffle.model
+[2.938s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/worlds/world_only.model
+[2.942s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/params/nav2_multirobot_params_1.yaml
+[2.943s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/params/nav2_multirobot_params_2.yaml
+[2.944s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/params/nav2_multirobot_params_all.yaml
+[2.945s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/params/nav2_params.yaml
+[2.946s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/params/old_params.yaml
+[2.949s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/urdf/turtlebot3_waffle.urdf
+[2.950s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/urdf/turtlebot3_waffle_1.urdf
+[2.951s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/ament_index/resource_index/package_run_dependencies/nova_nav2_bringup
+[2.953s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/ament_index/resource_index/parent_prefix_path/nova_nav2_bringup
+[2.955s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/environment/ament_prefix_path.sh
+[2.956s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/environment/ament_prefix_path.dsv
+[2.957s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/environment/path.sh
+[2.958s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/environment/path.dsv
+[2.960s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/local_setup.bash
+[2.961s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/local_setup.sh
+[2.962s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/local_setup.zsh
+[2.963s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/local_setup.dsv
+[2.964s] -- Symlinking: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/package.dsv
+[2.997s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/ament_index/resource_index/packages/nova_nav2_bringup
+[3.010s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/cmake/nova_nav2_bringupConfig.cmake
+[3.063s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/cmake/nova_nav2_bringupConfig-version.cmake
+[3.064s] -- Up-to-date symlink: /home/lfvargas/amr_ws/install/nova_nav2_bringup/share/nova_nav2_bringup/package.xml
+[3.067s] Invoked command in '/home/lfvargas/amr_ws/build/nova_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lfvargas/amr_ws/install/amr_bringup:/home/lfvargas/amr_ws/install/amr /usr/bin/cmake --install /home/lfvargas/amr_ws/build/nova_nav2_bringup

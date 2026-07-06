@@ -1,0 +1,4 @@
+Invoking command in '/home/lfvargas/amr_ws/build/nova_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lfvargas/ros2_ws/install /usr/bin/cmake --build /home/lfvargas/amr_ws/build/nova_nav2_bringup -- -j8 -l8
+Invoked command in '/home/lfvargas/amr_ws/build/nova_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lfvargas/ros2_ws/install /usr/bin/cmake --build /home/lfvargas/amr_ws/build/nova_nav2_bringup -- -j8 -l8
+Invoking command in '/home/lfvargas/amr_ws/build/nova_nav2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lfvargas/ros2_ws/install /usr/bin/cmake --install /home/lfvargas/amr_ws/build/nova_nav2_bringup
+Invoked command in '/home/lfvargas/amr_ws/build/nova_nav2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lfvargas/ros2_ws/install /usr/bin/cmake --install /home/lfvargas/amr_ws/build/nova_nav2_bringup

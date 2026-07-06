@@ -1,0 +1,292 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #560505;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    font-family: system-ui;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    gap: 10px;
+    width: 95%;
+    height: 95%;
+}
+
+.grid-item-header {
+    background-color: #d7d7d7;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    grid-column: span 2;
+    text-align: center;
+    font-size: 22px;
+    font-family: system-ui;
+    font-weight: bold;
+}
+
+
+.grid-item {
+    background-color: #d7d7d7;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.top-item {
+    width: 1075px;
+    height: 490px;
+}
+
+.low-item {
+    width: 1075px;
+    height: 475px;
+}
+
+
+.indicators {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.indicator-box {
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #aead8b;
+}
+
+.indicator-box-hbox {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.indicator-label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.indicator-value {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.first-label {
+    margin-right: 10px;
+}
+
+.item1 {
+    width: 740px;
+}
+
+.item2 {
+    margin-right: -5px;
+    width: 20%;
+}
+
+.item3 {
+    width: 200px;
+}
+
+.item4 {
+    width: 20%;
+    margin-right: px
+}
+
+.item5 {
+    margin-left: 5px;
+}
+
+.item6 {
+    margin-right: 9px;
+}
+
+.buttons-container {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    transform: scale(1.5);
+}
+
+.vbox-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color:rgba(0, 0, 0, 0.1);
+
+}
+
+#ros-video {
+    width: 100px;
+    height: 100px;
+
+}
+
+#map {
+    width: 100%;
+    height: 90%;
+}
+
+.horizontal-container {
+    display:flex;
+    justify-content: center;
+    gap: 30%
+}
+
+.vertical-container {
+    display: grid;
+    margin-bottom: 10%;
+    gap: 5px;
+}
+
+.horizontal-container-pose {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    transform: scale(1.5);
+}
+
+.navigation-container {
+   transform: scale(1.0);
+}
+
+.navigation-button {
+    width: 100px;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 18/1.5 px;
+    cursor: pointer;   
+}
+
+.nav-button {
+    display:grid;
+    justify-content: center;
+    gap: 5px;
+    margin-top: -20px;
+}
+
+.input-field {
+    width: 40px;
+    height: 10px;
+    border-radius: 10px;
+    font-size: 18/1.5px;
+    padding: 5px;
+}
+
+.canvas-container {
+    position: absolute;
+    top:50px;
+    left: 50px;
+}
+
+.label {
+    position: absolute;
+}
+
+.vertical-label-container {
+    top: -25px;
+    left: -42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 110.8%;
+}
+
+.horizontal-label-container {
+    bottom: -40px;
+    left: -20px;
+    display: flex;
+    justify-content: space-between;
+    width: 105.2%;
+}
+
+#x-label {
+    bottom: 0px;
+    left: 740px;
+    width: 100%;
+}
+
+#y-label {
+    top: -10px;
+    left: 10px;
+}
+
+.goal-status {
+    width: 200px;
+    margin-left: 15px;
+}
+
+.grouped-fields {
+    display: flex;
+    flex-direction: row; /* Arrange items in a row */
+    gap: 10px; /* Add spacing between the radio buttons */
+    margin-top: -20px; /* Add spacing above the radio buttons */
+    margin-bottom: 10px;
+}
+
+.grouped-fields .field {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.radio-checkbox input[type="radio"]:checked + label {
+    font-weight: bold; /* Make the label text bold */
+}
+
+#robot1 {
+    accent-color: blue;
+}
+
+#robot2 {
+    accent-color: red;
+}
+
+#robot3 {
+    accent-color: green;
+}
+
+#robot4 {
+    accent-color: orange;
+}
+
+
+.radio-checkbox label::before {
+    border: 2px solid black; /* Add a black border to the checkbox */
+}
+
+.legend {
+    transform: scale(0.2);
+}
+
+#reset-button {
+    font-size: 18px;
+    width: auto;
+}
