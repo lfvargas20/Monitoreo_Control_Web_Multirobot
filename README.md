@@ -26,4 +26,4 @@
 ## Visualización de la página web
 ![Página web](web.png)
 ## Visualización del entorno industrial en Gazebo Classic
-
+![Fabrica Gazebo](factory_gazebo.png)
