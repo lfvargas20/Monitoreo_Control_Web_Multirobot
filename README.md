@@ -17,7 +17,7 @@
 `source install/setup.bash`
 ### Comando de activación del proyecto (Terminal 1)
 `ros2 launch amr multi_amr_project_launch.launch.py`
-### Comando para activar el servidor local de la página web de monitoreo y control de los robots (Terminal 2)
+### Comandos para activar el servidor local de la página web de monitoreo y control de los robots (Terminal 2)
 `cd ~/Monitoreo_Control_web_Multirobot/web`
 
 `python3 -m http.server`
