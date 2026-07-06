@@ -1,4 +1,4 @@
-# Sistema de Monitoreo y Control Web de Robots Móviles
+# Sistema de Monitoreo y Control Web de Robots Móviles (Virtual)
 ## Pasos para inicializar el sistema
 ### Clonación del repositorio
 `git clone https://github.com/lfvargas20/Monitoreo_Control_Web_Multirobot.git`
