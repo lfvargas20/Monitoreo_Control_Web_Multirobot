@@ -1,4 +1,9 @@
-# Sistema de Monitoreo y Control Web de Robots Móviles (Virtual)
+# Sistema de Monitoreo y Control Web de Robots Móviles en Entornos Industriales (Virtual)
+## Requisitos previos
+* Tener instalado ROS 2 Humble
+* Tener instalado los paquetes del robot móvil `TurtleBot 3`
+* Tener instalado Gazebo Classic
+* Tener instalado los paquetes `Nav2`, `rosbridge_server` y `web_video_server`
 ## Pasos para inicializar el sistema
 ### Clonación del repositorio
 `git clone https://github.com/lfvargas20/Monitoreo_Control_Web_Multirobot.git`
@@ -20,3 +25,5 @@
 `localhost:8000`
 ## Visualización de la página web
 ![Página web](web.png)
+## Visualización del entorno industrial en Gazebo Classic
+
