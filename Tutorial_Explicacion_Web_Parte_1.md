@@ -74,7 +74,7 @@ Define la separación del contenido visualizado mediante un contenedor `div` pri
 | 118-196 | Control | Control manual/automático de los robots (ver detalle en 3.4.1.5) |
 | 201 | Script | Archivo `.js` usado para ejecutar JavaScript e interactuar con cada sección de la página |
 
-##### 3.4.2 Detalle de la sección de control (líneas 118-196)
+#### 3.4.2 Detalle de la sección de control (líneas 118-196)
 
 | Líneas | Descripción |
 |---|---|
